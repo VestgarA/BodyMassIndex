@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
-        double imt = service.count(1.87, 98);
+        int imt = service.count(1.87, 98);
         System.out.println(imt);
 
 
